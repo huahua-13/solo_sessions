@@ -4,23 +4,23 @@
 Travel guides, self-care tips, empowering resources, and more – all for thriving solo.
 
 ## 🚀 Features
-- **8 tailored categories** for single living
+- **7 tailored categories** for single living
 - Clean, modern UI with intuitive navigation
 - No frameworks – pure HTML/CSS
 
 ## 📂 Folder Structure
-solo-sessions/
-├── index.html # Homepage
-├── travel.html # Solo travel guides
-├── books.html # Books for singles
-├── songs.html # Empowerment playlists
-├── selfcare.html # Self-care techniques
-├── dating.html # Dating advice
-├── tips.html # Single living tips
-├── proud.html # Why be proud?
-├── css/
-│ └── style.css # Main stylesheet
-└── images/ # All website assets
+solo-sessions  
+├── index.html          # Homepage  
+├── travel.html         # Solo travel guides  
+├── books.html          # Books for singles  
+├── songs.html          # Empowerment playlists  
+├── selfcare.html       # Self-care techniques  
+├── dating.html         # Dating advice  
+├── tips.html           # Single living tips  
+├── proud.html          # Why be proud?  
+├── css/ <br>
+│   └── style.css       # Main stylesheet  
+└── images/             # All website assets  
 
 ## 🎨 Design Specs
 Color Palette:
@@ -35,8 +35,13 @@ Fonts:
 ## 👥 Team Contribution
 15 contributors:
 - Homepage: @huahua-13
-- Travel: @
-- Books: @
+- Travel: 
+- Books: 
+- Songs:
+- Self-care tips:
+- Dating advice: @kYAWsAWhEIN
+- Single living tips:
+- Why be proud?: @Newbee-Dev16
 
 ## 🌍 Live Demo
 --
