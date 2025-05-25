@@ -25,7 +25,7 @@ solo-sessions
 ## 🎨 Design Specs
 Color Palette:
 - Primary: #749BC2
-- Secondary: 91C8E4
+- Secondary: #91C8E4
 - Background: #FFFBDE
 
 Fonts:
@@ -35,10 +35,10 @@ Fonts:
 ## 👥 Team Contribution
 15 contributors:
 - Homepage: @huahua-13
-- Travel: 
-- Books: 
+- Travel: @jm-7905
+- Books:
 - Songs:
-- Self-care tips:
+- Self-care tips: @SHOON-125
 - Dating advice: @kYAWsAWhEIN
 - Single living tips:
 - Why be proud?: @Newbee-Dev16

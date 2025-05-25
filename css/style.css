@@ -1,0 +1,637 @@
+/* fonts */
+@import url("https://fonts.cdnfonts.com/css/poppins?styles=20394,20397,20387,20390,20392,20395,20383,20385,20381");
+@import url("https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap");
+
+.mrs-saint-delafield-regular {
+  font-family: "Mrs Saint Delafield", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Global Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #3a3a3a;
+  background-color: #fffbde;
+}
+
+header {
+  color: #4b4545;
+  padding: 5px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+@media (max-width: 850px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+nav ul div {
+  flex-basis: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+nav a {
+  color: #3a3a3a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #91c8e4;
+}
+
+main {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Card Layout */
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #749bc2;
+  color: #fffbde;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* footer styles */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #3a3a3a;
+  color: #c1c1c1;
+}
+
+.footer-container {
+  margin: 20px 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 60px;
+}
+
+@media (max-width: 850px) {
+  .footer-container {
+    gap: 30px;
+  }
+}
+
+.footer-text {
+  text-align: left;
+}
+
+.footer-text h1 {
+  color: white;
+  margin: 0px;
+}
+
+.footer-text p {
+  font-size: 15px;
+  margin: 0px;
+}
+
+footer ul {
+  width: 30%;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+footer ul h5 {
+  color: #91c8e4;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+footer ul div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer a {
+  color: #c1c1c1;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: white;
+}
+
+footer hr {
+  color: #c1c1c1;
+  margin: 30px;
+}
+
+.footer-credit {
+  margin: 0 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-credit p {
+  margin: 0;
+  font-size: 15px;
+}
+
+.footer-credit span {
+  color: #91c8e4;
+  font-size: 35px;
+}
+
+.footer-logo-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-text {
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url("../images/hero-bg.jpg") no-repeat center/cover;
+  color: #fffbde;
+  text-align: center;
+  padding: 8rem 1rem;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  display: inline-block;
+  background: #749bc2;
+  color: white;
+  padding: 0.8rem 2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+/* Hero Stats */
+.hero-stats {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.stat {
+  text-align: center;
+}
+.number {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #749bc2;
+}
+.label {
+  display: block;
+  font-size: 0.9rem;
+}
+
+/* Featured styles */
+.featured-categories {
+  padding: 2rem 1rem 4rem 1rem;
+  text-align: center;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.category-card {
+  background: #749bc2;
+  color: #fffbde;
+  border-radius: 8px;
+  padding: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  text-decoration: none;
+}
+
+.category-card .icon {
+  background: #fffbde;
+  width: 25px;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+}
+
+.category-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.category-card h3 {
+  margin: 1rem 0 0.5rem;
+  padding: 0 1rem;
+  text-decoration: underline;
+}
+
+.category-card p {
+  padding: 0 1rem 1.5rem;
+  /* color: #3a3a3a; */
+}
+
+/* Consultation Section */
+.consultation {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding: 2rem;
+}
+
+.consultation-content {
+  flex: 1.3;
+}
+
+.consultation h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.consultation p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.consultation-benefits {
+  margin: 1.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.consultation-benefits li {
+  margin-bottom: 0.8rem;
+  list-style-type: none;
+  position: relative;
+  padding-left: 2rem;
+}
+
+.consultation-benefits li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: #ff6b6b;
+}
+
+.consultation-image {
+  flex: 1;
+  text-align: center;
+}
+
+.consultation-image img {
+  max-width: 100%;
+  height: 350px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.small-note {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .consultation {
+    flex-direction: column;
+  }
+}
+
+/* Travel Section Styles */
+#travel-content img {
+  border-radius: 20px;
+}
+
+/* Benefits Styles */
+.benefits {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.benefit-item {
+  background: #749bc2;
+  color: #fffbde;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Testimonial Styles */
+
+.testimonial {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.testimonial-content {
+  background: #749bc2;
+  color: #fffbde;
+  padding: 3rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(255, 107, 107, 0.1);
+  position: relative;
+}
+
+.quote-icon {
+  font-size: 6rem;
+  color: #fffbde;
+  position: absolute;
+  top: -1rem;
+  left: 1rem;
+  line-height: 1;
+}
+
+blockquote {
+  font-size: 1.3rem;
+  font-style: italic;
+  line-height: 1.6;
+  margin: 2rem 0;
+  position: relative;
+  z-index: 1;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.author-details h4 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #fffbde;
+}
+
+.author-details p {
+  margin: 0.3rem 0 0;
+  color: #fffbde;
+  font-size: 0.9rem;
+}
+
+.star-ratings {
+  color: #ffc107;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  margin-top: 0.5rem;
+}
+
+/* Responsive */
+
+@media (max-width: 600px) {
+  .testimonial-content {
+    padding: 2rem 1.5rem;
+  }
+  blockquote {
+    font-size: 1.1rem;
+  }
+}
+
+/* proud styles */
+
+.why-section,
+.famous-section,
+.stories-section {
+  padding: 1rem;
+  border-bottom: 2px dashed #749bc2;
+}
+
+/* .famous-section h1,
+.famous-section h2 {
+  text-decoration: underline;
+} */
+
+.why-facts {
+  margin: 2rem auto;
+}
+
+.why-facts p,
+.famous-singles-box p,
+.stories-section p {
+  text-indent: 35px;
+}
+
+.famous-singles-box {
+  border-left: 5px solid #749bc2;
+  padding-left: 20px;
+  margin: 3rem auto;
+}
+
+.famous-end-text {
+  text-align: center;
+  text-indent: 35px;
+}
+
+/* proud - stories section style */
+
+.stories-section iframe {
+  width: 90%;
+  height: 350px;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 8px;
+  border: 3px solid #749bc2;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.stories-section div {
+  padding: 1rem 0;
+}
+
+/* tips - minimalist section */
+
+#minimalist {
+  padding: 1rem;
+  border-bottom: 2px dashed #749bc2;
+}
+
+#minimalist > div {
+  margin-bottom: 3.5rem;
+}
+
+#minimalist table {
+  margin: 0 auto;
+}
+
+#minimalist li {
+  line-height: 35px;
+}
+#minimalist table {
+  width: 600px;
+  height: 250px;
+  border-collapse: collapse;
+}
+
+td {
+  padding-left: 15px;
+}
+
+th {
+  background-color: #91c8e4;
+  height: 40px;
+}
+
+/* songs section */
+
+#songs {
+  padding: 1rem;
+}
+
+.song-card {
+  margin: 4rem auto;
+}
+
+.song-card:nth-child(odd) {
+  border-right: 5px solid #749bc2;
+  padding-right: 20px;
+  text-align: right;
+}
+
+.song-card:nth-child(even) {
+  border-left: 5px solid #749bc2;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.song-link {
+  color: #4682a9;
+  text-decoration: none;
+  font-size: 25px;
+  text-shadow: #91c8e4 1px 0 10px;
+}
+
+.song-link:hover {
+  text-decoration: underline;
+}
+
+/* physical self-care section */
+
+#physical .card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 4rem;
+  padding: 1rem 2rem 3rem;
+}
+
+#physical .card-container + #physical .card-container {
+  margin-top: 4rem;
+}
+
+#physical .card {
+  background-color: #749bc2;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  transition: none;
+}
+
+#physical .card img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+#physical .card h2 {
+  margin: 1rem;
+}
+
+#physical .card p {
+  margin: 0 1rem 1rem 1rem;
+}
+
+/* tips - cooking section */
+
+#cooking {
+  margin: 2rem;
+}
+
+.food-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 3rem;
+}
+
+.food-card {
+  flex-basis: 50%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.food-card h2 {
+  margin-bottom: 0;
+}
+
+.food-card img,
+.egg-fried-rice img {
+  border-radius: 20px;
+}
+
+.egg-fried-rice {
+  border-top: 2px dashed #749bc2;
+  border-bottom: 2px dashed #749bc2;
+  margin: 3rem auto 2rem;
+}
+
+.egg-fried-rice .recipe,
+.egg-fried-rice .direction {
+  margin: 2rem auto;
+}
