@@ -1,0 +1,7 @@
+# robots.txt for Solo Sessions
+
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+
+Sitemap: https://solo-sessions.vercel.app/sitemap.xml
