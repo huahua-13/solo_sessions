@@ -8,35 +8,35 @@
 </url>
 <url>
   <loc>https://solo-sessions.vercel.app/index.html</loc>
-  <priority>0.80</priority>
+  <priority>1.00</priority>
 </url>
 <url>
   <loc>https://solo-sessions.vercel.app/travel.html</loc>
-  <priority>0.80</priority>
+  <priority>0.5</priority>
 </url>
 <url>
   <loc>https://solo-sessions.vercel.app/books.html</loc>
-  <priority>0.80</priority>
+  <priority>0.5</priority>
 </url>
 <url>
   <loc>https://solo-sessions.vercel.app/songs.html</loc>
-  <priority>0.80</priority>
+  <priority>0.5</priority>
 </url>
 <url>
   <loc>https://solo-sessions.vercel.app/selfcare.html</loc>
-  <priority>0.80</priority>
+  <priority>0.5</priority>
 </url>
 <url>
   <loc>https://solo-sessions.vercel.app/dating.html</loc>
-  <priority>0.80</priority>
+  <priority>0.5</priority>
 </url>
 <url>
   <loc>https://solo-sessions.vercel.app/tips.html</loc>
-  <priority>0.80</priority>
+  <priority>0.5</priority>
 </url>
 <url>
   <loc>https://solo-sessions.vercel.app/proud.html</loc>
-  <priority>0.80</priority>
+  <priority>0.5</priority>
 </url>
 
 
